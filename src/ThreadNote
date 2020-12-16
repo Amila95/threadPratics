@@ -1,0 +1,21 @@
+
+By extending Thread class
+By implementing Runnable interface.
+
+
+Thread()
+Thread(String name)
+Thread(Runnable r)
+
+public void run(): is used to perform action for a thread.
+public void start(): starts the execution of the thread.JVM calls the run() method on the thread.
+public void sleep(long miliseconds): Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds.
+public void join(): waits for a thread to die.
+public void join(long miliseconds): waits for a thread to die for the specified miliseconds.
+public int getPriority(): returns the priority of the thread.
+public int setPriority(int priority): changes the priority of the thread.
+
+public boolean isAlive(): tests if the thread is alive.
+public void suspend(): is used to suspend the thread(depricated).
+public void resume(): is used to resume the suspended thread(depricated).
+public void stop(): is used to stop the thread(depricated).
